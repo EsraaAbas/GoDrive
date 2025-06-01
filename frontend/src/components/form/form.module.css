@@ -127,3 +127,8 @@
     padding: 0.7rem;
   }
 }
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
