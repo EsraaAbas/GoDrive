@@ -1,18 +1,15 @@
-import { useState } from 'react';
-import './App.css';
-import { Documents } from './pages/mudocument/mydocument';
-import { Routes, Route } from 'react-router-dom'; 
+import React from 'react'
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/routes';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
+
     <>
-      <Routes>
-        <Route path="/documents" element={<Documents />} />
-      </Routes>
+            <RouterProvider router={router} />
+      
     </>
-  );
+  )
 }
 
-export default App;
+export default App

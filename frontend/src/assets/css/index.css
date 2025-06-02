@@ -16,14 +16,14 @@ html {
   /* colors */
   --primary-50: #e0fcff;
   --primary-100: #bef8fd;
-  --primary-200: #fda929;
-  --primary-300: #fda929;
-  --primary-400: #fda929;
-  --primary-500: #fda929;
-  --primary-600: #fda929;
-  --primary-700: #fda929;
-  --primary-800: #fda929;
-  --primary-900: #fda929;
+  --primary-200: #87eaf2;
+  --primary-300: #54d1db;
+  --primary-400: #38bec9;
+  --primary-500: #2cb1bc;
+  --primary-600: #14919b;
+  --primary-700: #0e7c86;
+  --primary-800: #0a6c74;
+  --primary-900: #044e54;
 
   /* grey */
   --grey-50: #f8fafc;
@@ -39,7 +39,10 @@ html {
   /* rest of the colors */
   --black: #222;
   --white: #fff;
-
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
 
   --small-text: 0.875rem;
   --extra-small-text: 0.7em;
@@ -73,7 +76,12 @@ html {
   --text-secondary-color: var(--grey-500);
 }
 
-
+.dark-theme {
+  --text-color: var(--dark-mode-text-color);
+  --background-color: var(--dark-mode-bg-color);
+  --text-secondary-color: var(--dark-mode-text-secondary-color);
+  --background-secondary-color: var(--dark-mode-bg-secondary-color);
+}
 
 body {
   background: var(--background-color);
@@ -117,6 +125,28 @@ h4 {
 h5 {
   font-size: clamp(0.875rem, 1.5vw, 1.5rem); /* Tiny heading */
 }
+
+/* BIGGER FONTS */
+/* h1 {
+  font-size: clamp(3rem, 6vw, 6rem);
+}
+
+h2 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+h3 {
+  font-size: clamp(2rem, 4vw, 4rem);
+}
+
+h4 {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+h5 {
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+ */
 
 .text {
   margin-bottom: 1.5rem;
@@ -284,4 +314,3 @@ button:disabled {
   max-width: var(--max-width);
   margin: 0 auto;
 }
-
