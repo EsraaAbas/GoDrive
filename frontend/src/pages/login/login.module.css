@@ -1,0 +1,179 @@
+.pageWrapper {
+  background-image: url('car.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: 'Cairo', 'Amiri', 'Tajawal', 'Reem Kufi', sans-serif;
+  direction: rtl;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #a9810f;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.userTypeSelector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn, .activeBtn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  min-width: 80px;
+  text-align: center;
+  transition: 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn {
+  border: 1px solid #a9810f;
+  background-color: white;
+  color: #a9810f;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a9810f;
+  color: white;
+}
+
+.activeBtn {
+  border: none;
+  background-color: #a9810f;
+  color: white;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.customLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #a9810f;
+  font-size: 1.1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  display: block;
+}
+
+input:focus {
+  border-color: #a9810f;
+  outline: none;
+}
+
+.phoneInputWrapper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+.phoneInputWrapper span {
+  padding: 0.7rem 0.8rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-weight: bold;
+  color: #a9810f;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.phoneInputWrapper input {
+  flex: 1;
+  min-width: 0;
+  border-radius: 0 5px 5px 0;
+  padding: 0.7rem 1rem;
+}
+
+.submitBtn {
+  margin-top: 1rem;
+  background-color: #a9810f;
+  color: white;
+  padding: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #916f0c;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .btn, .activeBtn {
+    min-width: 70px;
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  input {
+    font-size: 0.95rem;
+  }
+
+  .submitBtn {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
+
+
+body {
+  font-family: 'Cairo', 'Amiri', 'Tajawal', 'Reem Kufi', sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
