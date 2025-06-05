@@ -12,7 +12,7 @@ export function Documents() {
 
 
 
-     const [document, setdocument] = useState([]); 
+  const [document, setdocument] = useState([]); 
   const [inputValue, setInputValue] = useState(""); 
 
 //   const handleAddItem = () => {

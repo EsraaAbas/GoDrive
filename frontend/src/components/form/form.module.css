@@ -44,7 +44,7 @@
   border: 1px solid #f8f0f0;
   border-radius: 8px;
   font-size: 16px;
-  box-shadow: 0 1px 2px #fda929;
+  box-shadow: 0 1px 2px rgb(209, 121, 45);
 }
 
 .fullWidth {
@@ -54,7 +54,7 @@
 .button {
   width: 100%;
   padding: 0.8rem;
-  background-color: #fda929;
+  background-color: rgb(209, 121, 45);
   color: white;
   font-size: 18px;
   border: none;
@@ -65,15 +65,15 @@
 }
 
 .button:hover {
-  background-color: #f57c00;
+  background-color: rgb(209, 121, 45);
 }
 
 .section {
-  border: 1px solid #ccc;
+  border: 1px solid #e0dcdc;
   border-radius: 15px;
   padding: 1rem;
   margin-bottom: 1.5rem;
-  background-color: #f6f9fa;
+  background-color: #fdfaef;
 }
 
 /* ✅ Media Queries for Responsiveness */

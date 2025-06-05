@@ -8,7 +8,7 @@ const saudiCities = [
   "عرعر", "القنفذة", "الطائف", "بيشة", "سكاكا"
 ];
 
-export default function TransportForm() {
+function TransportForm() {
   const [formData, setFormData] = useState({
     senderCity: "",
     senderName: "",
@@ -156,3 +156,6 @@ export default function TransportForm() {
     </div>
   );
 }
+
+
+export default TransportForm;

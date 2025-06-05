@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../form/form.module.css";
 
-const DrierForm = () => {
+const DriverForm = () => {
   const [formData, setFormData] = useState({
     driverName: "",
     driverID: "",
@@ -94,4 +94,4 @@ const DrierForm = () => {
   );
 };
 
-export default  DrierForm;
+export default  DriverForm;
